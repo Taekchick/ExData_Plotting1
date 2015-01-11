@@ -20,7 +20,7 @@ png(filename="plot4.png", width=480, height=480, bg="transparent" )
 par(mfrow=c(2,2))
 ## Graph 1
 plot(subdata$DateTime, subdata$Global_active_power, type="l", xlab="", 
-     ylab="Global Active Power (kilowatts)")
+     ylab="Global Active Power")
 ## Graph 2
 plot(subdata$DateTime, subdata$Voltage, type="l", 
      xlab="datetime", ylab="Voltage")
